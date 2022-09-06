@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 10px;
+}
+
+.app--container{
+    height: auto;
+    width: 300px;
+    text-align: center;
+    background-color: #1A1B21;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161619;
+    width: 300px;
+    height: 60px;
+    column-gap: 25px;
+}
+.info--container > h1,h2,h3{
+    padding: 0px;
+    margin: 2px 0px 0px 0px;
+}
+
+.info--container > h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.info--container > h2{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 6px;
+    color: #F3BF99;
+}
+.info--container > h3{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 13px;
+    color: #F5F5F5;
+}
+.button--comp > button{
+    width: 115px;
+    height: 35px;
+    border-radius: 7px;
+    cursor: pointer;
+    outline: none;
+}
+.button--comp{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    margin: 15px 0px;
+}
+.button--comp > .email--comp{
+    color: #374151;
+}
+.button--comp > .github--comp{
+    color: white;
+    background-color: #5093E2;
+}
+.about--container{
+    text-align: left;
+    font-size: 12px;
+    max-width: 230px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.about--container > .about--h1--comp{
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.about--container > .about--p--comp{
+    margin-top: 5px;
+}
+
+.intr--container{
+    text-align: left;
+    font-size: 12px;
+    max-width: 230px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.intr--container > .intr--h1--container{
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.intr--container > .intr--p--container{
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
